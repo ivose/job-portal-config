@@ -15,3 +15,13 @@ management:
     web:
       exposure:
         include: health,info
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: Job Portal API Gateway
+    description: API Gateway for Job Portal microservices
+    version: 0.0.1-SNAPSHOT
+    java: 21
